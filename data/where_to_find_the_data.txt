@@ -1,0 +1,1 @@
+The tactical data must be downloaded from the SoccerNet Player-Centric Ball Action Spotting challenge server, into this folder
