@@ -201,7 +201,7 @@ If you use **FOOTPASS**, please cite:
 @article{Ochin2025FOOTPASS,
   title   = {FOOTPASS: A Multi-Modal Multi-Agent Tactical Context Dataset for Play-by-Play Action Spotting in Soccer Broadcast Videos},
   author  = {Ochin, Jérémy and Chekroun, Raphael and Stanciulescu, Bogdan and Manitsaris, Sotiris},
-  journal = {Computer Vision and Image Understanding (CVIU)},
+  journal = {Submitted to CVIU},
   year    = {2025}
 }
 ```
