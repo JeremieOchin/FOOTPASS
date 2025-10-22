@@ -422,9 +422,7 @@ def evaluate_events_from_json(
     Prints a per-class table and overall summary.
     Returns a dict with aggregated metrics and splits.
     """
-    import json
-    import numpy as np
-
+        
     C = len(class_names)
     with open(gt_json_path, "r", encoding="utf-8") as f:
         gt = json.load(f)
@@ -732,4 +730,5 @@ def evaluate_events_from_json(
         },
         "keys_evaluated": keys_to_eval,
     }
+
 
