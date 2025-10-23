@@ -17,8 +17,8 @@ This benchmark supports the **SoccerNet 2026 Player-Centric Ball-Action Spotting
 
 ## 🎯 Motivation
 
-Existing soccer datasets mostly target sparse or global events (e.g., goals, fouls).  
-FOOTPASS focuses instead on **dense, player-centered, ball-related actions**, enabling joint research on tactical context and visual reasoning in realistic conditions.
+Why FOOTPASS?
+Most public soccer datasets either (i) annotate sparse/global events with timestamps only—without telling you who performed the action—or (ii) provide tactical/per-player logs but without the original broadcast video. FOOTPASS closes this gap by aligning broadcast video with player-centric, ball-related actions and team/jersey/role information, plus tracking and spatiotemporal data. The result is a benchmark purposely designed to foster joint research in visual reasoning and tactical understanding under realistic match conditions.
 
 It integrates:
 - Full HD broadcast **videos** (25 fps)
