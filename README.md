@@ -195,7 +195,7 @@ cd FOOTPASS
 
 ## 📚 Citation
 
-If you use **FOOTPASS**, please cite:
+If the **FOOTPASS** dataset benefits your work, please kindly consider citing the paper:
 
 ```bibtex
 @article{Ochin2025FOOTPASS,
