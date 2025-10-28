@@ -178,7 +178,7 @@ Evaluation: via SoccerNet evaluation server
 
 | Resource | Location |
 |:----------|:----------|
-| **Dataset** | [Hugging Face – SoccerNet](https://huggingface.co/datasets/SoccerNet/SN-STAD-2026) |
+| **Dataset** | [Hugging Face – SoccerNet](https://huggingface.co/datasets/SoccerNet/SN-PCBAS-2026/tree/main)
 | **Videos** | Available via **SoccerNet NDA** |
 | **Evaluation** | TBD |
 | **Paper** | [`FOOTPASS_preprint_September_2025.pdf`](./FOOTPASS_preprint_September_2025.pdf) |
