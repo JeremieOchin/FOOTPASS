@@ -218,7 +218,7 @@ You may also be interested in the following related works:
 }
 
 @InProceedings{Ochin2025GNN,
-  author    = {Ochin, Jérémy and Devineau, Guillaume and Stanciulescu, Bogdan and Manitsaris, Sotiris},
+  author    = {Ochin, Jeremie and Devineau, Guillaume and Stanciulescu, Bogdan and Manitsaris, Sotiris},
   title     = {Game State and Spatio-Temporal Action Detection in Soccer Using Graph Neural Networks and 3D Convolutional Networks},
   booktitle = {Proceedings of the 14th International Conference on Pattern Recognition Applications and Methods (ICPRAM)},
   year      = {2025},
@@ -230,7 +230,7 @@ You may also be interested in the following related works:
 }
 
 @InProceedings{Ochin2025DST,
-  author    = {Ochin, Jérémy and Chekroun, Raphael and Stanciulescu, Bogdan and Manitsaris, Sotiris},
+  author    = {Ochin, Jeremie and Chekroun, Raphael and Stanciulescu, Bogdan and Manitsaris, Sotiris},
   title     = {Beyond Pixels: Leveraging the Language of Soccer to Improve Spatio-Temporal Action Detection in Broadcast Videos},
   booktitle = {Proceedings of the 22nd International Conference on Advanced Concepts for Intelligent Vision Systems (ACIVS)},
   year      = {2025},
