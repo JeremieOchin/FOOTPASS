@@ -205,7 +205,38 @@ If the **FOOTPASS** dataset benefits your work, please kindly consider citing th
   year    = {2025}
 }
 ```
+You may also be interested in the following related works:
 
+```bibtex
+@InProceedings{Singh2023,
+  author    = {Singh, Gurkirt and Choutas, Vasileios and Saha, Suman and Yu, Fisher and Van Gool, Luc},
+  title     = {Spatio-Temporal Action Detection Under Large Motion},
+  booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  month     = {January},
+  year      = {2023},
+  pages     = {6009--6018}
+}
+
+@InProceedings{Ochin2025GNN,
+  author    = {Ochin, Jérémy and Devineau, Guillaume and Stanciulescu, Bogdan and Manitsaris, Sotiris},
+  title     = {Game State and Spatio-Temporal Action Detection in Soccer Using Graph Neural Networks and 3D Convolutional Networks},
+  booktitle = {Proceedings of the 14th International Conference on Pattern Recognition Applications and Methods (ICPRAM)},
+  year      = {2025},
+  pages     = {636--646},
+  publisher = {SciTePress},
+  organization = {INSTICC},
+  doi       = {10.5220/0013161100003905},
+  isbn      = {978-989-758-730-6}
+}
+
+@InProceedings{Ochin2025DST,
+  author    = {Ochin, Jérémy and Chekroun, Raphael and Stanciulescu, Bogdan and Manitsaris, Sotiris},
+  title     = {Beyond Pixels: Leveraging the Language of Soccer to Improve Spatio-Temporal Action Detection in Broadcast Videos},
+  booktitle = {Proceedings of the 22nd International Conference on Advanced Concepts for Intelligent Vision Systems (ACIVS)},
+  year      = {2025},
+  note      = {Scheduled for publication by Springer on 24th November 2025}
+}
+```
 ---
 
 📜 License
