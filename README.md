@@ -220,7 +220,14 @@ Download the videos and annotations files from the links above (see section "Acc
 
 Put the videos into the \videos folder of the cloned repo, and the annotations in \data (there are .txt files that shows where to store these files in the relevant folders).
 
-Once the dataset is placed in the proper folders and the environments are properly configured, you can just run the train_*** files : python train_***.py. Check the code to see the options.
+Once the dataset is placed in the proper folders and the environments are properly configured, you can start training the models :
+- TAAD : just run the train_TAAD_Baseline.py file : python train_TAAD_Baseline.py - Check the code to see the options.
+- TAAD+GNN : python train_GNN.py - Check the code to see the options.
+- TAAD+DST : the Denoising Sequence Transduction model learns how to post-process long sequences of "noisy" predictions from the TAAD model using tactical prior (see the paper to learn more about it ==> section "Citation"). Therefore, before training it, you need to first train the TAAD baseline model and then make predictions with it over the whole training set. The line : python run_TAAD_on_matches.py does just that (check the code for the options : on which set to run it, where to store the predictions etc.). Then use NPpreds2HDF5.py to convert these stored raw predictions to HDF5 files used in the \utils\DST_dataset.py file (the Dataset class used by the Dataloader in the train_DST.py file).
+
+Format conversion :
+- Use NPpreds2JSON.py to convert stored raw predictions (Numpy array) as a JSON file, and performing a NMS. Check the code to see the options.
+- Use NPpreds2HDF5.py to convert stored raw predictions (Numpy array) from the TAAD baseline model to HDF5 file, for training the DST model. Check the file for options.
 
 ---
 
