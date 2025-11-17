@@ -211,13 +211,14 @@ Environment for TAAD + GNN
 - Decord 0.6
 - h5py 3.14
 
-# Clone the repository
+Clone the repository :
 git clone https://github.com/Footovision/FOOTPASS.git
 cd FOOTPASS
 
-Download the videos and annotations files from the links above (see section "Access"). You will need to fill the NDA form from the SoccerNet website to get the password that allows you to extract the files.
+Download the dataset :
+Download the videos and annotations files from the links above (see section "Access"). You will need to fill-in and submit the NDA form from the SoccerNet website to get the password that allows you to extract the files.
 
-Put the videos in the \videos folder of the cloned repo, and the annotations in \data (there are .txt files that explain where to store these files in the relevant folders).
+Put the videos into the \videos folder of the cloned repo, and the annotations in \data (there are .txt files that shows where to store these files in the relevant folders).
 
 Once the dataset is placed in the proper folders and the environments are properly configured, you can just run the train_*** files : python train_***.py. Check the code to see the options.
 
