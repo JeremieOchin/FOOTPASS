@@ -188,9 +188,38 @@ The evaluation server will be prolonged after the SoccerNet challenge in order t
 
 ## 🚀 Getting Started
 
+Environment for TAAD and TAAD + DST
+
+- Python 3.11.5
+- PyTorch 2.1.0
+- Torchvision 0.16.0
+- Albumentations 2.0.8
+- Numpy 1.26
+- Opencv-python 4.11
+- Decord 0.6
+- h5py 3.14
+
+Environment for TAAD + GNN
+
+- Python 3.11.5
+- PyTorch 2.1.0
+- Torchvision 0.16.0
+- torch_geometric 2.6.1
+- Albumentations 2.0.8
+- Numpy 1.26
+- Opencv-python 4.11
+- Decord 0.6
+- h5py 3.14
+
 # Clone the repository
 git clone https://github.com/Footovision/FOOTPASS.git
 cd FOOTPASS
+
+Download the videos and annotations files from the links above (see section "Access"). You will need to fill the NDA form from the SoccerNet website to get the password that allows you to extract the files.
+
+Put the videos in the \videos folder of the cloned repo, and the annotations in \data (there are .txt files that explain where to store these files in the relevant folders).
+
+Once the dataset is placed in the proper folders and the environments are properly configured, you can just run the train_*** files : python train_***.py. Check the code to see the options.
 
 ---
 
