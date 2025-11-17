@@ -232,6 +232,7 @@ Format conversion :
 Evaluation :
 - TAAD : you can use python run_TAAD_on_matches.py to run the trained model on the validation or test set, and then use NPpreds2JSON to produce the JSON files for evaluation.
 - TAAD + DST : you can use python run_DST_on_matches.py to run the trained TAAD+DST model on the validation or test set. It directly produce JSON files for evaluation.
+
 Finally, use evaluation.py --predictions_file xxxxx.json --ground_truth_file yyyyy.json to generate your metrics on the validation set (the results on the test set can be evaluated using the Codabench server ==> see section Access)
 
 ---
