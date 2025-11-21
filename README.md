@@ -181,7 +181,7 @@ Evaluation: via SoccerNet evaluation server
 | **Dataset** | [Hugging Face – SoccerNet](https://huggingface.co/datasets/SoccerNet/SN-PCBAS-2026/tree/main)
 | **Videos** | Available via **SoccerNet NDA** [NDA Form](https://docs.google.com/forms/d/e/1FAIpQLSfYFqjZNm4IgwGnyJXDPk2Ko_lZcbVtYX73w5lf6din5nxfmA/viewform)|
 | **Evaluation** | [Codabench challenge](https://www.codabench.org/competitions/11232/) |
-| **Paper** | [`FOOTPASS_preprint_September_2025.pdf`](./FOOTPASS_preprint_September_2025.pdf) |
+| **Paper** | [`FOOTPASS_preprint_September_2025.pdf`](https://hal.science/hal-05373478v1) |
 
 The evaluation server will be prolonged after the SoccerNet challenge in order to allow researchers to evaluate their methods on the test set.
 ---
