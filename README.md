@@ -280,6 +280,16 @@ You may also be interested in the following related works:
   year      = {2025},
   note      = {Scheduled for publication by Springer on 24th November 2025}
 }
+
+@InProceedings{FeichtenhoferX3D2020,
+  author    = {Feichtenhofer, Christoph},
+  title     = {X3D: Expanding Architectures for Efficient Video Recognition},
+  booktitle = {2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2020},
+  pages     = {200-210},
+  doi       = {10.1109/CVPR42600.2020.00028},
+}
+
 ```
 ---
 
