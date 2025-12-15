@@ -65,23 +65,13 @@ class GNN_Dataset(Dataset):
             self._random_sampling()
             self._add_random_seq(self.additional_clips, random=True)
 
-        elif self.set_status == 'val' :
+        else :
 
             self.h5_path = os.path.join(self.data_root, "data", "val_tactical_data.h5")
 
             with open(os.path.join(self.data_root, "data", "TAAD_sample_list.json"), "r") as f:
                 self.dataset_sample_list = json.load(f)['val']
 
-            self._random_sampling(random=False)
-            self._add_random_seq(self.additional_clips, random=False)
-
-        else:
-
-            self.h5_path = os.path.join(self.data_root, "data", "test_tactical_data.h5")
-
-            with open(os.path.join(self.data_root, "data", "TAAD_sample_list.json"), "r") as f:
-                self.dataset_sample_list = json.load(f)['test']
-            
             self._random_sampling(random=False)
             self._add_random_seq(self.additional_clips, random=False)
 
@@ -490,5 +480,6 @@ class GNN_Dataset(Dataset):
         return_items.append(all_dilated_cls)
         return_items.append(all_graphdata)
         return_items.append(torch.from_numpy(np.array([26])))
+
 
         return return_items
