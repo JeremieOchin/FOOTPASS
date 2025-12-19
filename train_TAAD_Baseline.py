@@ -195,7 +195,7 @@ if __name__ == '__main__':
 
             ### PRED, LOSS, BACKWARD, STEP ###
 
-            x_batch = x_batch.to(device, non_blocking=True).half() # (B,3,T,544,960)
+            x_batch = x_batch.to(device, non_blocking=True).half() # (B,3,T,352,640)
             roi_batch = roi_batch.to(device, non_blocking=True).float() # (B,M,T,5)
             masks = masks.to(device, non_blocking=True).float() # (B,M,T)
             dilated_labels = dilated_labels.to(device, non_blocking=True).long() # (B,M,T)
@@ -284,7 +284,7 @@ if __name__ == '__main__':
                 _,M,_,_ = roi_batch.shape
 
                 # Transfer to GPU
-                x_batch = x_batch.to(device, non_blocking=True).half() # (B,3,T,544,960)
+                x_batch = x_batch.to(device, non_blocking=True).half() # (B,3,T,352,640)
                 roi_batch = roi_batch.to(device, non_blocking=True).float() # (B,M,T,5)
                 masks = masks.to(device, non_blocking=True).float() # (B,M,T)
                 dilated_labels = dilated_labels.to(device, non_blocking=True).long() # (B,M,T)
@@ -342,4 +342,5 @@ if __name__ == '__main__':
             np.save(f, val_labels)
 
     writer.flush()
+
     writer.close()
