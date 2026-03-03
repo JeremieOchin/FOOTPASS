@@ -80,7 +80,7 @@ if __name__ == '__main__':
 
         data = data[(data[:,FRAME]>=frame_range[0])&(data[:,FRAME]<=frame_range[-1])]
         logits = logits[:,:,frame_range[0]:(frame_range[-1] + 1)] # (9,M,T)
-        action_data = data[data[:,CLS]!=0][:,[FRAME, LEFT_TO_RIGHT, ROLE_ID, CLS]].copy() # (T', 4) 'frame','left_to_right','short_role_id','class_id'
+        # action_data = data[data[:,CLS]!=0][:,[FRAME, LEFT_TO_RIGHT, ROLE_ID, CLS]].copy() # (T', 4) 'frame','left_to_right','short_role_id','class_id'
 
         ###########################
         #### BUILD TEAM VECTOR ####
@@ -310,3 +310,4 @@ if __name__ == '__main__':
 
     print(f"Saved {len(all_events['keys'])} games, total events = {sum(len(v) for v in all_events['events'].values())}")
     print(f"JSON written to: {out_path}")
+
