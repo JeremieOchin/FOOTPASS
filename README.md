@@ -1,5 +1,5 @@
 # FOOTPASS: Footovision Play-by-Play Action Spotting in Soccer Dataset  
-### _Baselines for the SoccerNet Player-Centric Ball-Action Spotting Challenge 2026_
+### _Ressources for training the baselines of the SoccerNet Player-Centric Ball-Action Spotting Challenge 2026_
 
 ---
 
