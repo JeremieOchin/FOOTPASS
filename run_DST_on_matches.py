@@ -38,7 +38,6 @@ if __name__ == '__main__':
     DATA_ROOT = args.data_root
     MODEL_CHECKPOINT = args.model_checkpoint
     MODEL_CHECKPOINT = os.path.join(DATA_ROOT, "runs", "DST_Baseline", MODEL_CHECKPOINT)
-    SAVE_PATH = args.save_path
     SET_STATUS = args.set_to_run
     START_IDX = args.start_index
     END_IDX = args.end_index
@@ -52,13 +51,6 @@ if __name__ == '__main__':
     NUM_LAYERS = args.numlayers
     NUM_HEADS = args.numheads
     DROPOUT = 0.1
-
-    args_file = os.path.join(SAVE_PATH, "run_config.txt")
-    with open(args_file, "w") as f:
-        f.write("Inference configuration:\n")
-        for k, v in vars(args).items():
-            f.write(f"{k}: {v}\n")
-    print(f"[INFO] Saved Inference configuration to {args_file}")
 
     use_cuda = torch.cuda.is_available()
     device = torch.device("cuda:0" if use_cuda else "cpu")
@@ -298,16 +290,13 @@ if __name__ == '__main__':
         all_events["keys"].append(k)
         all_events["events"][k] = events
 
-        json_path = os.path.join(DATA_ROOT, r"playbyplay_PRED")
-        os.makedirs(json_path, exist_ok=True)
-        json_path = os.path.join(json_path, f'playbyplay_TAAD_{SET_STATUS}.json')
-
     out_path = os.path.join(DATA_ROOT, r"playbyplay_PRED")
     os.makedirs(out_path, exist_ok=True)
-    out_path = os.path.join(out_path, f'playbyplay_TAAD_{SET_STATUS}.json')
+    out_path = os.path.join(out_path, f'playbyplay_DST_{SET_STATUS}.json')
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(all_events, f, ensure_ascii=False, indent=2)
 
     print(f"Saved {len(all_events['keys'])} games, total events = {sum(len(v) for v in all_events['events'].values())}")
     print(f"JSON written to: {out_path}")
+
 
