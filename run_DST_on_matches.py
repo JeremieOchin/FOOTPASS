@@ -17,9 +17,6 @@ def parse_args():
     p.add_argument("--model_checkpoint", type=str, default=r"curr_model_6.pt", help="Filename of the checkpoint")
     p.add_argument("--data_root", type=str, default=default_data_root, help="Root folder with data/")
     p.add_argument("--set_to_run", type=str, default=r"val", help="Part of the dataset to run : train, val, challenge")
-    p.add_argument("--start_index", type=int, default=0, help="Index of the first hafltime to run in the list of hdf5 file")
-    p.add_argument("--end_index", type=int, default=6, help="Index of the last hafltime to run in the list of hdf5 file")
-    p.add_argument("--batch_size", type=int, default=40)
 
     p.add_argument("--framespan", type=int, default=750)
     p.add_argument("--inputdim", type=int, default=364)
@@ -39,11 +36,6 @@ if __name__ == '__main__':
     MODEL_CHECKPOINT = args.model_checkpoint
     MODEL_CHECKPOINT = os.path.join(DATA_ROOT, "runs", "DST_Baseline", MODEL_CHECKPOINT)
     SET_STATUS = args.set_to_run
-    START_IDX = args.start_index
-    END_IDX = args.end_index
-
-    BATCH_SIZE = args.batch_size
-
     FRAMESPAN = args.framespan
     INPUT_DIM = args.inputdim
     OUTPUT_DIM = args.outputdim
@@ -298,5 +290,6 @@ if __name__ == '__main__':
 
     print(f"Saved {len(all_events['keys'])} games, total events = {sum(len(v) for v in all_events['events'].values())}")
     print(f"JSON written to: {out_path}")
+
 
 
