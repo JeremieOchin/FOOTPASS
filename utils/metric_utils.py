@@ -367,14 +367,14 @@ def build_action_sequences(preds, frames, labels, labframes):
 
     for b in range(B):
         for t in range(T):
-            if not (preds[b,t] in [0,9,10]) :
+            if not (preds[b,t] in [8,9]) :
                 curr_frame = int(frames[b,t])
                 predseq[b,curr_frame] = preds[b,t]
 
     B,T = labels.shape
     for b in range(B):
         for t in range(T):
-            if not (labels[b,t] in [0,9,10]) :
+            if not (labels[b,t] in [8,9]) :
                 curr_frame = int(labframes[b,t])
                 labelsseq[b,curr_frame] = labels[b,t]
     
