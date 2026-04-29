@@ -242,11 +242,16 @@ Finally, use evaluation.py --predictions_file xxxxx.json --ground_truth_file yyy
 If the **FOOTPASS** dataset benefits your work, please kindly consider citing the paper:
 
 ```bibtex
-@article{Ochin2025FOOTPASS,
-  title   = {FOOTPASS: A Multi-Modal Multi-Agent Tactical Context Dataset for Play-by-Play Action Spotting in Soccer Broadcast Videos},
-  author  = {Ochin, Jérémy and Chekroun, Raphael and Stanciulescu, Bogdan and Manitsaris, Sotiris},
-  journal = {Submitted to CVIU},
-  year    = {2025}
+@article{Ochin2026Footpass,
+author = {Jérémie Ochin and Raphaël Chekroun and Bogdan Stanciulescu and Sotiris Manitsaris},
+title = {FOOTPASS: A multi-modal multi-agent tactical context dataset for play-by-play action spotting in soccer broadcast videos},
+journal = {Computer Vision and Image Understanding},
+volume = {269},
+pages = {104790},
+year = {2026},
+issn = {1077-3142},
+doi = {https://doi.org/10.1016/j.cviu.2026.104790},
+url = {https://www.sciencedirect.com/science/article/pii/S1077314226001578},
 }
 ```
 You may also be interested in the following related works:
