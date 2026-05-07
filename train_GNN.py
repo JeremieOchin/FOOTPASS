@@ -240,7 +240,7 @@ if __name__ == '__main__':
                 scaler.step(opt)
                 scaler.update()
                 opt.zero_grad()
-                if curr_iter <= WARMUP_STEPS:
+                if curr_iter <= (WARMUP_STEPS * ACCUM_STEPS):
                     scheduler.step()
 
             writer.add_scalars('lr/all_groups',{g.get('name', f'group_{i}'): g['lr'] for i, g in enumerate(opt.param_groups)}, curr_iter)
