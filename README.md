@@ -279,11 +279,18 @@ You may also be interested in the following related works:
 }
 
 @InProceedings{Ochin2025DST,
-  author    = {Ochin, Jeremie and Chekroun, Raphael and Stanciulescu, Bogdan and Manitsaris, Sotiris},
-  title     = {Beyond Pixels: Leveraging the Language of Soccer to Improve Spatio-Temporal Action Detection in Broadcast Videos},
-  booktitle = {Proceedings of the 22nd International Conference on Advanced Concepts for Intelligent Vision Systems (ACIVS)},
-  year      = {2025},
-  note      = {Scheduled for publication by Springer on 24th November 2025}
+  author = {Ochin, Jeremie and Chekroun, Raphael and Stanciulescu, Bogdan and Manitsaris, Sotiris},
+  title = {Beyond Pixels: Leveraging the Language of Soccer to Improve Spatio-Temporal Action Detection in Broadcast Videos},
+  year = {2025},
+  isbn = {978-3-032-07342-6},
+  publisher = {Springer-Verlag},
+  address = {Berlin, Heidelberg},
+  url = {https://doi.org/10.1007/978-3-032-07343-3_44},
+  doi = {10.1007/978-3-032-07343-3_44},
+  booktitle = {Advanced Concepts for Intelligent Vision Systems: 22nd International Conference, ACIVS 2025, Tokyo, Japan, July 28–30, 2025, Proceedings},
+  pages = {552–563},
+  numpages = {12},
+  location = {Tokyo, Japan}
 }
 
 @InProceedings{FeichtenhoferX3D2020,
