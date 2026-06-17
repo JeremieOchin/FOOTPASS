@@ -243,15 +243,15 @@ If the **FOOTPASS** dataset benefits your work, please kindly consider citing th
 
 ```bibtex
 @article{Ochin2026Footpass,
-author = {Jérémie Ochin and Raphaël Chekroun and Bogdan Stanciulescu and Sotiris Manitsaris},
-title = {FOOTPASS: A multi-modal multi-agent tactical context dataset for play-by-play action spotting in soccer broadcast videos},
-journal = {Computer Vision and Image Understanding},
-volume = {269},
-pages = {104790},
-year = {2026},
-issn = {1077-3142},
-doi = {https://doi.org/10.1016/j.cviu.2026.104790},
-url = {https://www.sciencedirect.com/science/article/pii/S1077314226001578},
+  author  = {Jérémie Ochin and Raphaël Chekroun and Bogdan Stanciulescu and Sotiris Manitsaris},
+  title   = {FOOTPASS: A multi-modal multi-agent tactical context dataset for play-by-play action spotting in soccer broadcast videos},
+  journal = {Computer Vision and Image Understanding},
+  volume  = {269},
+  pages   = {104790},
+  year    = {2026},
+  issn    = {1077-3142},
+  doi     = {https://doi.org/10.1016/j.cviu.2026.104790},
+  url     = {https://www.sciencedirect.com/science/article/pii/S1077314226001578},
 }
 ```
 You may also be interested in the following related works:
@@ -279,18 +279,18 @@ You may also be interested in the following related works:
 }
 
 @InProceedings{Ochin2025DST,
-  author = {Ochin, Jeremie and Chekroun, Raphael and Stanciulescu, Bogdan and Manitsaris, Sotiris},
-  title = {Beyond Pixels: Leveraging the Language of Soccer to Improve Spatio-Temporal Action Detection in Broadcast Videos},
-  year = {2025},
-  isbn = {978-3-032-07342-6},
-  publisher = {Springer-Verlag},
-  address = {Berlin, Heidelberg},
-  url = {https://doi.org/10.1007/978-3-032-07343-3_44},
-  doi = {10.1007/978-3-032-07343-3_44},
-  booktitle = {Advanced Concepts for Intelligent Vision Systems: 22nd International Conference, ACIVS 2025, Tokyo, Japan, July 28–30, 2025, Proceedings},
-  pages = {552–563},
-  numpages = {12},
-  location = {Tokyo, Japan}
+  author     = {Ochin, Jeremie and Chekroun, Raphael and Stanciulescu, Bogdan and Manitsaris, Sotiris},
+  title      = {Beyond Pixels: Leveraging the Language of Soccer to Improve Spatio-Temporal Action Detection in Broadcast Videos},
+  year       = {2025},
+  isbn       = {978-3-032-07342-6},
+  publisher  = {Springer-Verlag},
+  address    = {Berlin, Heidelberg},
+  url        = {https://doi.org/10.1007/978-3-032-07343-3_44},
+  doi        = {10.1007/978-3-032-07343-3_44},
+  booktitle  = {Advanced Concepts for Intelligent Vision Systems: 22nd International Conference, ACIVS 2025, Tokyo, Japan, July 28–30, 2025, Proceedings},
+  pages      = {552–563},
+  numpages   = {12},
+  location   = {Tokyo, Japan}
 }
 
 @InProceedings{FeichtenhoferX3D2020,
